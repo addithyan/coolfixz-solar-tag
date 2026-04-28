@@ -1,0 +1,7 @@
+[build]
+  command = "npm ci && ./node_modules/.bin/vite build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_CONFIG_PRODUCTION = "false"
